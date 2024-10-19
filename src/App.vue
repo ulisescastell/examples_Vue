@@ -1,6 +1,7 @@
 <script setup>
 import ComputedComponent from './components/ComputedComponent.vue';
-
+import DirectiveComponent from './components/DirectiveComponent.vue';
+import ReactiveComponent from './components/ReactiveComponent.vue';
 </script>
 
 <template>
@@ -8,14 +9,12 @@ import ComputedComponent from './components/ComputedComponent.vue';
   <h1>Basic concepts of Vue 3</h1>
   <p>Examples of ref, reactive, directive, vmodel, vfor, vif, vshowa and computed</p>
   <ComputedComponent/>
+  <DirectiveComponent/>
+  <ReactiveComponent/>
 </main>
 </template>
 
 <style scoped>
-
-main {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 header {
   line-height: 1.5;
