@@ -1,7 +1,12 @@
 <script setup>
-import ComputedComponent from './components/ComputedComponent.vue';
-import DirectiveComponent from './components/DirectiveComponent.vue';
-import ReactiveComponent from './components/ReactiveComponent.vue';
+  import ComputedComponent from './components/ComputedComponent.vue';
+  import DirectiveComponent from './components/DirectiveComponent.vue';
+  import ReactiveComponent from './components/ReactiveComponent.vue';
+  import RefComponent from './components/RefComponent.vue';
+  import vForComponent from './components/vForComponent.vue';
+  import vIfComponent from './components/vIfComponent.vue';
+  import vModelComponent from './components/vModelComponent.vue';
+  import vShowComponent from './components/vShowComponent.vue';
 </script>
 
 <template>
@@ -11,6 +16,11 @@ import ReactiveComponent from './components/ReactiveComponent.vue';
   <ComputedComponent/>
   <DirectiveComponent/>
   <ReactiveComponent/>
+  <RefComponent/>
+  <vForComponent/>
+  <vIfComponent/>
+  <vModelComponent/>
+  <vShowComponent/>
 </main>
 </template>
 
